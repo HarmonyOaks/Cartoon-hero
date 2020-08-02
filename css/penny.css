@@ -1,18 +1,40 @@
 body {
     margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 header {
     background-color: bisque;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
+h1, h2 {font-family: 'Rubik', sans-serif;
+    font-weight: 1000;
+    
+}
+h1 {font-size: 50px;
+} 
+
 header h1{
-    color: rgb(187, 129, 5);
+    color: rgb(92, 64, 4);
+    
 }
 
 header img{
     border-radius: 170px;
     width: 300px;
-    border: 10px solid rgb(207, 145, 63)
+    border: 10px solid rgb(207, 152, 80)
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+main img{
+    max-width: 100%;
+   
 }
